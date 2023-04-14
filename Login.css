@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(175, 174, 174);
+}
+
+
+/*/////////////////////////////// NavBar ///////////////////////////////*/
+
+
+#head{
+    box-sizing: border-box;
+  }
+  
+  #logo{
+    padding: 7px 7px;
+  }
+  #head{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #bar{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #bar li {
+    list-style: none;
+    padding: 0px 30px;
+  }
+  
+  #bar li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #bar li a:hover{
+    color: white;
+  }
+
+
+/*/////////////////////////////// Login ///////////////////////////////*/
+
+
+#container {
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 160px;
+    box-shadow: 20px 8px 15px 10px black;
+}
+
+#btn {
+    background-color:  rgb(175, 174, 174);
+    border: solid 2px rgb(175, 174, 174);
+    padding: 10px;
+    padding-top: 04px;
+    padding-bottom: 04px;
+    border-radius: 07px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: grey;
+}
+
+

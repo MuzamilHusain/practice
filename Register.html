@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="MainPage.css">
+    <style>
+
+
+/*/////////////////////////////// NavBar ///////////////////////////////*/
+
+
+#head{
+    box-sizing: border-box;
+  }
+  #logo{
+    padding: 7px 7px;
+  }
+  #head{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #bar{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #bar li {
+    list-style: none;
+    padding: 0px 30px;
+  }
+  
+  #bar li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #bar li a:hover{
+    color: white;
+  }
+
+
+/*/////////////////////////////// Register ///////////////////////////////*/
+
+
+        body{
+            background-color: rgb(175, 174, 174);
+            width: 100%;
+            margin: auto;
+        }
+        #main{
+            border: 2px solid rgb(175, 174, 174);
+            width: 200px;
+            margin: auto;
+            box-shadow: 15px 8px 15px 10px black;
+        }
+    </style>
+</head>
+<body>
+
+<!-- //////// NavBar ///////// -->
+
+<section id="head">
+    <a href="#"><img src="C:\\Users\\Lenovo\\Documents\\image5-3.avif" alt="Error" height="40px" id="logo"></a>
+ 
+    <div>
+       <ul id="bar">
+          <li><a href="C:\\Learning\\Assignment 1\\MainPage.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="C:\\Learning\\Assignment 1\\Login.html">Login</a></li>
+          <li><a href="C:\\Learning\\Assignment 1\\Register.html">Register</a></li>
+       </ul>
+    </div>
+ </section>
+
+<!--///////////////////////// Register /////////////////////////-->
+
+
+
+
+<h1 style="font-size: 50px;">Register</h1>
+<div id="main">
+<form action=""><div>
+     First Name: <input type="text" id="name" placeholder="Muzamil">
+</div>
+<br>
+<div>
+  Last Name: <input type="Role" name="MyRole" placeholder="Hussain" id="Lname">
+</div>
+<br>
+<div>
+    Email : <input type="email" name="MyEmail" placeholder="muzammil786@gmail.com" id="Mail">
+</div>
+<br>
+<div>
+    Password : <input type="password" id="password">
+</div>
+<br>
+<div>
+   Confirm Password : <input type="password" id="C_password">
+</div>
+<br>
+
+    <input type="submit" value="SignUp" onclick="register()"> <input type="reset" value="Reset">
+</div>
+</div></form>   
+<script src="Register.js"></script>
+</body>
+</html>
