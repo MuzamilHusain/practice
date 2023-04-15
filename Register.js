@@ -32,8 +32,7 @@ function register(){
 }
 
 
-
-
+console.log('this is js code')
 
 
 
