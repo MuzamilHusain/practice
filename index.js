@@ -16,8 +16,6 @@
 //     text: 'Exercise',
 //     content: 'True',
 // }]
-console.log("Hello world")
-
 
 
 // const myfunction = function(array,query){
